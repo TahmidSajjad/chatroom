@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #282c34;
 }
@@ -85,6 +91,7 @@ input {
 button {
   background-color: #282c34; /* Green */
   border: none;
+  outline: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -101,9 +108,9 @@ button:disabled {
 
 
 .sign-in {
-  color: #282c34;
+  color: #282c35;
   background: white;
-  max-width: 400px;
+  max-width: 405px;
   margin: 0 auto;
 }
 
@@ -147,9 +154,9 @@ p {
 }
 
 img {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  margin: 2px 5px;
+  margin: 2px 6px;
 }
 
